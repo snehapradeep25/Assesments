@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+  }
+  
+
+  .background-section {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2ojE5xTtdPOBHdWbycO-PqbYSqaMfH_HOA&s');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 0 20px;
+  }
+
+  .heading {
+    margin: 0 20px;
+    font-family: 'Alegreya', cursive;
+    text-align: center;
+    font-size: 52px;
+    color: #B76E79;
+    font-weight: bold;
+  }
+  
+  /* Product grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Product card */
+  .product-card {
+    border: 3px solid #FFC0CB;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: white;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .product-image-container {
+    position: relative;
+    border: 2px solid #B76E79;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .product-image {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border: 2px soli Product responses */d #FFC0CB;
+    border-radius: 8px;
+  }
+  
+ 
+  .cart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #B76E79;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cart-icon:hover {
+    background: #A15F6B;
+  }
+  
+  
+  .product-title {
+    font-family: 'Consolas', Monaco, monospace;
+    font-size: 18px;
+  }
+  
+  .product-price {
+    color: #B76E79;
+    font-size: 22px;
+  }
+  
+ 
+  .product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+
+  .product-rating {
+    font-family: serif;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  
+  .product-responses {
+    color: #777;
+  }
+  
+ 
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer h1 {
+    color: red;
+    font-size: 14px;
+  }
+  
